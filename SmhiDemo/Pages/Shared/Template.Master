@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="SmhiDemo.Pages.Shared.Template" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SMHIdotNET, Demonstration av REST wrapper API</title>
+    <%#: Styles.Render("~/bundles/BootstrapCss") %>
+    
+    
+    
+    <script src="../../Scripts/jquery-1.9.1.js"></script>
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/StyleSheet.css" rel="stylesheet" />
+    <%-- fonts --%>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css' />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <ul class="nav nav-pills navbar-right ">
+                    <li>
+                        <asp:HyperLink ID="HyperLinkWeatherStations" runat="server"
+                            NavigateUrl="~/Pages/ThreeColumns.aspx"
+                            CssClass="nav">Väderstationer</asp:HyperLink>
+
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLinkForcast" runat="server"
+                            NavigateUrl="~/Pages/Graph.aspx"
+                            CssClass="nav ">Grafik</asp:HyperLink>
+
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLinkMapView" runat="server"
+                            NavigateUrl="~/Pages/MapView.aspx">Kartsök</asp:HyperLink>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <%-- Header --%>
+            <div class="page-header">
+                <img src="../../Media/weatherSymbol_xs.png" alt="SMHIdotNET logo" class="weather-logo" />
+                <h1 id="logo-name">SMHI<span style="font-family: 'Gloria Hallelujah', cursive; font-size: 0.7em; color: crimson">dot</span>NET</h1>
+                
+
+                <%-- Search forcast --%>
+                <div class="form-group search-field">
+                    <asp:TextBox ID="TextBoxSearch" runat="server"
+                        CssClass="form-control form-fixed-size"
+                        Text="Stad..." />
+
+
+                    <asp:Button ID="ButtonSearch" runat="server"
+                        Text="Hämta väder"
+                        CssClass="btn btn-default btn-sm"
+                        OnClick="ButtonSearch_OnClick" />
+                </div>
+                 <h6 id="logo-description">Demonstration av SMHIdotNET's REST API Wrapper </h6>
+            </div>
+        </div>
+
+        <%-- Main Content --%>
+        <div class="container">
+            <div class="row">
+                <%-- Placeholder --%>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+
+    </form>
+    <script type="text/javascript">
+
+        //Deletes existing value in input box, when in focus
+        document.getElementById("<%= TextBoxSearch.ClientID %>").addEventListener('focus', function () {
+            this.value = "";
+        });
+
+        //Validates city input
+        $("#<%= ButtonSearch.ClientID %>").click(function(e) {
+            var inputValue = $("#<%= TextBoxSearch.ClientID %> ").val();
+            if (!isCityValid(inputValue)) {
+                e.preventDefault();
+            }
+            
+        });
+
+        //validation function
+        function isCityValid(input) {
+            if (input === "Stad..." || input === ""){
+                console.log(input + "true");
+                return false;
+                
+            } else {
+                return true;
+            }
+        }
+       
+
+    </script>
+</body>
+</html>

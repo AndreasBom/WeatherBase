@@ -1,0 +1,69 @@
+﻿{
+  "value": [
+    {
+      "date": 1429776000000,
+      "value": "11.3",
+      "quality": "Y"
+    }
+  ],
+  "updated": 1429776000000,
+  "parameter": {
+    "key": "4",
+    "name": "Vindhastighet",
+    "summary": "medelvärde 10 min, 1 gång/tim",
+    "unit": "metre per second"
+  },
+  "station": {
+    "key": "71190",
+    "name": "Nidingen A",
+    "height": 10.0
+  },
+  "period": {
+    "key": "latest-hour",
+    "from": 1429772401000,
+    "to": 1429776000000,
+    "summary": "Data från senaste timmen",
+    "sampling": "10 minuter"
+  },
+  "position": [
+    {
+      "from": 818985600000,
+      "to": 1429776000000,
+      "height": 2.0,
+      "latitude": 57.304,
+      "longitude": 11.906400000000001
+    }
+  ],
+  "link": [
+    {
+      "rel": "data",
+      "type": "application/json",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/71190/period/latest-hour/data.json"
+    },
+    {
+      "rel": "data",
+      "type": "application/xml",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/71190/period/latest-hour/data.xml"
+    },
+    {
+      "rel": "data",
+      "type": "text/plain",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/71190/period/latest-hour/data.csv"
+    },
+    {
+      "rel": "period",
+      "type": "application/atom+xml",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4/station/71190/period/latest-hour.atom"
+    },
+    {
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml",
+      "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=25080190-38ba-4279-a65d-d9ef8d0bf949"
+    },
+    {
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml",
+      "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=bbcb137b-b8fc-450c-b67d-6c3239dbe0de"
+    }
+  ]
+}

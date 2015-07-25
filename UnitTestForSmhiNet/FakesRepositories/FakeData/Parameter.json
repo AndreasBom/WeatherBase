@@ -1,0 +1,725 @@
+﻿{
+  "key": "latest",
+  "updated": 1429012800000,
+  "title": "Senaste versionen av nedladdningstjänsten: Välj parameter (sedan station och tidsutsnitt)",
+  "summary": "",
+  "link": [
+    {
+      "rel": "version",
+      "type": "application/json",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest.json"
+    },
+    {
+      "rel": "version",
+      "type": "application/xml",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest.xml"
+    },
+    {
+      "rel": "version",
+      "type": "application/atom+xml",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest.atom"
+    },
+    {
+      "rel": "category",
+      "type": "application/atom+xml",
+      "href": "http://opendata-download-metobs.smhi.se/api.atom"
+    },
+    {
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml",
+      "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=25080190-38ba-4279-a65d-d9ef8d0bf949"
+    }
+  ],
+  "resource": [
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "17",
+      "updated": 1429012800000,
+      "title": "Climate weather code, precipitation",
+      "summary": "2 gånger/dygn, kl 06 och 18",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/17.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/17.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/17.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=762376b4-1f11-4d40-a4c6-865c98ae3765"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "18",
+      "updated": 1429012800000,
+      "title": "Climate weather code, precipitation",
+      "summary": "1 gång/dygn, kl 18",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/18.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/18.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/18.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=762376b4-1f11-4d40-a4c6-865c98ae3765"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "11",
+      "updated": 1429012800000,
+      "title": "Global Irradians (svenska stationer)",
+      "summary": "medelvärde 1 timme, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/11.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/11.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/11.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=a71f56f5-da58-476d-8866-67937e260b4f"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "19",
+      "updated": 1429012800000,
+      "title": "Lufttemperatur",
+      "summary": "min, 1 gång per dygn",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/19.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/19.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/19.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=2b84284b-4e01-48ee-8f40-5792c42579f2"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "20",
+      "updated": 1429012800000,
+      "title": "Lufttemperatur",
+      "summary": "max, 1 gång per dygn",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/20.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/20.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/20.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=2b84284b-4e01-48ee-8f40-5792c42579f2"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "2",
+      "updated": 1429012800000,
+      "title": "Lufttemperatur",
+      "summary": "medelvärde 1 dygn, 1 gång/dygn, kl 00",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/2.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/2.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/2.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=a5a31815-bf29-4ae3-81cf-cdb76378e028"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "1",
+      "updated": 1429012800000,
+      "title": "Lufttemperatur",
+      "summary": "momentanvärde, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/1.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=c6ae10b6-6a18-4e15-9444-fbd746f4609d"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "9",
+      "updated": 1429012800000,
+      "title": "Lufttryck reducerat havsytans nivå",
+      "summary": "vid havsytans nivå, momentanvärde, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/9.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/9.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/9.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=2c789229-7fb2-485b-ad6e-505e4081d667"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "15",
+      "updated": 1429012800000,
+      "title": "Nederbördsintensitet",
+      "summary": "max under 15 min, 4 gånger/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/15.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/15.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/15.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=728cbad6-b063-40de-b07c-4ce027f4614b"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "14",
+      "updated": 1429012800000,
+      "title": "Nederbördsmängd",
+      "summary": "summa 15 min, 4 gånger/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/14.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/14.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/14.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=56d81331-90c1-4315-a746-ef83941b01ef"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "7",
+      "updated": 1429012800000,
+      "title": "Nederbördsmängd",
+      "summary": "summa 1 timme, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/7.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/7.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/7.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=2cdaac6d-e9eb-4857-a44f-b07521a18afd"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "5",
+      "updated": 1429012800000,
+      "title": "Nederbördsmängd",
+      "summary": "summa 1 dygn, 1 gång/dygn, kl 06",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/5.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/5.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/5.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=a47932fd-8b6a-47cd-a8e7-429f3c750bdc"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "6",
+      "updated": 1429012800000,
+      "title": "Relativ Luftfuktighet",
+      "summary": "momentanvärde, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/6.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/6.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/6.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=eb8cea14-55cf-4c30-8c13-3351870b6f8d"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "13",
+      "updated": 1429012800000,
+      "title": "Rådande väder",
+      "summary": "momentanvärde, 1 gång/tim resp 8 gånger/dygn",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/13.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/13.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/13.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=b451cab6-2a8f-4b14-a125-fe0c49a6c9aa"
+        },
+        {
+          "rel": "codes",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/13/codes.json"
+        },
+        {
+          "rel": "codes",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/13/codes.xml"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "12",
+      "updated": 1429012800000,
+      "title": "Sikt",
+      "summary": "momentanvärde, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/12.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/12.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/12.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=7208622e-70ad-4d30-b972-41e3d254da75"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "8",
+      "updated": 1429012800000,
+      "title": "Snödjup",
+      "summary": "momentanvärde, 1 gång/dygn, kl 06",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/8.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/8.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/8.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=76fd0da7-1e91-4ad3-a88b-8c2f89b0b2e0"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "10",
+      "updated": 1429012800000,
+      "title": "Solskenstid",
+      "summary": "summa 1 timme, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/10.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/10.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/10.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=2cb9200d-57a3-4068-8157-5706fd0c587b"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "16",
+      "updated": 1429012800000,
+      "title": "Total molnmängd",
+      "summary": "momentanvärde, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/16.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/16.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/16.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=e9ee6972-ffda-4fe9-ac8f-74dd3b254e15"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "4",
+      "updated": 1429012800000,
+      "title": "Vindhastighet",
+      "summary": "medelvärde 10 min, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/4.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=bbcb137b-b8fc-450c-b67d-6c3239dbe0de"
+        }
+      ]
+    },
+    {
+      "geoBox": {
+        "minLatitude": 55.0,
+        "minLongitude": 10.0,
+        "maxLatitude": 70.0,
+        "maxLongitude": 25.0
+      },
+      "key": "3",
+      "updated": 1429012800000,
+      "title": "Vindriktning",
+      "summary": "medelvärde 10 min, 1 gång/tim",
+      "link": [
+        {
+          "rel": "parameter",
+          "type": "application/json",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3.json"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3.xml"
+        },
+        {
+          "rel": "parameter",
+          "type": "application/atom+xml",
+          "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3.atom"
+        },
+        {
+          "rel": "iso19139",
+          "type": "application/vnd.iso.19139+xml",
+          "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=edb8b81b-dd7a-4a29-98ae-a454d2cfddcc"
+        }
+      ]
+    }
+  ]
+}

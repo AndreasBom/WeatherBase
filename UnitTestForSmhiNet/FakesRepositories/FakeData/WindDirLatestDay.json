@@ -1,0 +1,184 @@
+﻿{
+  "value": [
+    {
+      "date": 1430074800000,
+      "value": "100",
+      "quality": "G"
+    },
+    {
+      "date": 1430078400000,
+      "value": "200",
+      "quality": "G"
+    },
+    {
+      "date": 1430082000000,
+      "value": "300",
+      "quality": "G"
+    },
+    {
+      "date": 1430085600000,
+      "value": "278",
+      "quality": "G"
+    },
+    {
+      "date": 1430089200000,
+      "value": "273",
+      "quality": "G"
+    },
+    {
+      "date": 1430092800000,
+      "value": "272",
+      "quality": "G"
+    },
+    {
+      "date": 1430096400000,
+      "value": "274",
+      "quality": "G"
+    },
+    {
+      "date": 1430100000000,
+      "value": "269",
+      "quality": "G"
+    },
+    {
+      "date": 1430103600000,
+      "value": "264",
+      "quality": "G"
+    },
+    {
+      "date": 1430107200000,
+      "value": "271",
+      "quality": "G"
+    },
+    {
+      "date": 1430110800000,
+      "value": "264",
+      "quality": "G"
+    },
+    {
+      "date": 1430114400000,
+      "value": "237",
+      "quality": "G"
+    },
+    {
+      "date": 1430118000000,
+      "value": "233",
+      "quality": "G"
+    },
+    {
+      "date": 1430121600000,
+      "value": "220",
+      "quality": "G"
+    },
+    {
+      "date": 1430125200000,
+      "value": "226",
+      "quality": "G"
+    },
+    {
+      "date": 1430128800000,
+      "value": "215",
+      "quality": "G"
+    },
+    {
+      "date": 1430132400000,
+      "value": "221",
+      "quality": "G"
+    },
+    {
+      "date": 1430136000000,
+      "value": "219",
+      "quality": "G"
+    },
+    {
+      "date": 1430139600000,
+      "value": "205",
+      "quality": "G"
+    },
+    {
+      "date": 1430143200000,
+      "value": "201",
+      "quality": "G"
+    },
+    {
+      "date": 1430146800000,
+      "value": "206",
+      "quality": "G"
+    },
+    {
+      "date": 1430150400000,
+      "value": "212",
+      "quality": "G"
+    },
+    {
+      "date": 1430154000000,
+      "value": "316",
+      "quality": "Y"
+    },
+    {
+      "date": 1430157600000,
+      "value": "281",
+      "quality": "Y"
+    }
+  ],
+  "updated": 1430157600000,
+  "parameter": {
+    "key": "3",
+    "name": "Vindriktning",
+    "summary": "medelvärde 10 min, 1 gång/tim",
+    "unit": "degree true"
+  },
+  "station": {
+    "key": "71190",
+    "name": "Nidingen A",
+    "height": 10.0
+  },
+  "period": {
+    "key": "latest-day",
+    "from": 1430071201000,
+    "to": 1430157600000,
+    "summary": "Data från senaste dygnet",
+    "sampling": "10 minuter"
+  },
+  "position": [
+    {
+      "from": 818985600000,
+      "to": 1430157600000,
+      "height": 2.0,
+      "latitude": 57.304,
+      "longitude": 11.906400000000001
+    }
+  ],
+  "link": [
+    {
+      "rel": "data",
+      "type": "application/json",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3/station/71190/period/latest-day/data.json"
+    },
+    {
+      "rel": "data",
+      "type": "application/xml",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3/station/71190/period/latest-day/data.xml"
+    },
+    {
+      "rel": "data",
+      "type": "text/plain",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3/station/71190/period/latest-day/data.csv"
+    },
+    {
+      "rel": "period",
+      "type": "application/atom+xml",
+      "href": "http://opendata-download-metobs.smhi.se/api/version/latest/parameter/3/station/71190/period/latest-day.atom"
+    },
+    {
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml",
+      "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=25080190-38ba-4279-a65d-d9ef8d0bf949"
+    },
+    {
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml",
+      "href": "http://opendata-catalog.smhi.se/catalog/srv/en/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&outputSchema=csw:IsoRecord&id=edb8b81b-dd7a-4a29-98ae-a454d2cfddcc"
+    }
+  ]
+}
