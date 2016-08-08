@@ -22,6 +22,7 @@
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -185,10 +186,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\GeoCode\GeoCode.csproj">
-      <Project>{3a3b769c-c0c1-4c37-9263-0ad210f78708}</Project>
-      <Name>GeoCode</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SmhiNet\SmhiNet.csproj">
       <Project>{5e492a33-c71e-456e-8603-d2885d1f7690}</Project>
       <Name>SmhiNet</Name>

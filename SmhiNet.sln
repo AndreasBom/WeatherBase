@@ -1,17 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmhiNet", "SmhiNet\SmhiNet.csproj", "{5E492A33-C71E-456E-8603-D2885D1F7690}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestForSmhiNet", "UnitTestForSmhiNet\UnitTestForSmhiNet.csproj", "{7D7A1A8C-EE22-4293-9C00-C42B45A885E2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{036F77B4-9108-4BFF-8E9E-292ECF38045A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCode", "GeoCode\GeoCode.csproj", "{3A3B769C-C0C1-4C37-9263-0AD210F78708}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmhiDemo", "SmhiDemo\SmhiDemo.csproj", "{B5A4756B-D224-47A5-8B08-06E00B2CB683}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{41AD5E21-7E5B-4409-B3EB-20B17FDF73B0}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{41AD5E
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{687A63F8-3B72-4C6B-9B17-E3F33EE2AD09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,18 +30,10 @@ Global
 		{7D7A1A8C-EE22-4293-9C00-C42B45A885E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7A1A8C-EE22-4293-9C00-C42B45A885E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7A1A8C-EE22-4293-9C00-C42B45A885E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{036F77B4-9108-4BFF-8E9E-292ECF38045A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{036F77B4-9108-4BFF-8E9E-292ECF38045A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{036F77B4-9108-4BFF-8E9E-292ECF38045A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{036F77B4-9108-4BFF-8E9E-292ECF38045A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A3B769C-C0C1-4C37-9263-0AD210F78708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A3B769C-C0C1-4C37-9263-0AD210F78708}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A3B769C-C0C1-4C37-9263-0AD210F78708}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A3B769C-C0C1-4C37-9263-0AD210F78708}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5A4756B-D224-47A5-8B08-06E00B2CB683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5A4756B-D224-47A5-8B08-06E00B2CB683}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5A4756B-D224-47A5-8B08-06E00B2CB683}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5A4756B-D224-47A5-8B08-06E00B2CB683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687A63F8-3B72-4C6B-9B17-E3F33EE2AD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687A63F8-3B72-4C6B-9B17-E3F33EE2AD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687A63F8-3B72-4C6B-9B17-E3F33EE2AD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687A63F8-3B72-4C6B-9B17-E3F33EE2AD09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -67,10 +67,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GeoCode\GeoCode.csproj">
-      <Project>{3A3B769C-C0C1-4C37-9263-0AD210F78708}</Project>
-      <Name>GeoCode</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SmhiNet\SmhiNet.csproj">
       <Project>{5e492a33-c71e-456e-8603-d2885d1f7690}</Project>
       <Name>SmhiNet</Name>
