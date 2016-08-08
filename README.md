@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ####ConsoleApp   
 Har använts som "play ground".   
 
@@ -12,3 +13,6 @@ Rest Api Wrapper på smhi's väder data.
 
 ####UnitTestForSmhiNet   
 Enhetstester
+=======
+# WeatherBase
+>>>>>>> bfff24b59ebc4dcc4c6bccdbc84fcc1d530b7fd2
