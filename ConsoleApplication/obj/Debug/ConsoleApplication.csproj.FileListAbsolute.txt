@@ -1,7 +1,6 @@
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\bin\Debug\ConsoleApplication.exe
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
-C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\ConsoleApplication\bin\Debug\Newtonsoft.Json.dll

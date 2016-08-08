@@ -1,5 +1,4 @@
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\SmhiNet\obj\Debug\SmhiNet.csproj.App.config
-C:\Users\Andre\Documents\MEGA\Git\WeatherBase\SmhiNet\obj\Debug\SmhiNet.csprojResolveAssemblyReference.cache
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\SmhiNet\bin\Debug\SmhiNet.dll.config
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\SmhiNet\bin\Debug\SmhiNet.dll
 C:\Users\Andre\Documents\MEGA\Git\WeatherBase\SmhiNet\bin\Debug\SmhiNet.pdb
